@@ -161,7 +161,7 @@ main
         }
         .hint
         {
-            margin-bottom: 2.5rem; 
+           // margin-bottom: 2.5rem; 
         }
     }
 }
@@ -208,7 +208,8 @@ main
 .button
 {
     &--submit
-    {
+    {   
+        margin-top: 2.5rem;
         background-color: vars.$colors--green-600;
         color: vars.$colors--white;
         border-radius: 6px;

@@ -115,10 +115,6 @@ main {
 .input-group--consent label {
   margin: 0;
 }
-.input-group--consent .hint {
-  margin-bottom: 2.5rem;
-}
-
 .input {
   border-radius: 4px;
   padding: 1rem;
@@ -147,6 +143,7 @@ main {
 }
 
 .button--submit {
+  margin-top: 2.5rem;
   background-color: hsl(169, 82%, 27%);
   color: hsl(0, 0%, 100%);
   border-radius: 6px;

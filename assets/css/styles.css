@@ -140,6 +140,7 @@ main {
 .hint {
   color: hsl(0, 66%, 54%);
   margin-top: 0.75rem;
+  display: none;
 }
 .hint--visible {
   display: block;

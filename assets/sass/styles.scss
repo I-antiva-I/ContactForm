@@ -32,9 +32,9 @@ main
 {
     max-width: vars.$size--main-mobile;
     background-color: vars.$colors--white;
-    padding: 2rem 1.5rem;
+    padding: 2rem;
     border-radius: 16px;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
 }
 
 #contact-form
@@ -81,7 +81,7 @@ main
         flex-direction: row;
         justify-content: center;
         align-items: center;
-
+        
         input
         {
             width: 20px;
@@ -113,7 +113,8 @@ main
     &__sub-group
     {
         border-radius: 4px;
-        border: 1px solid vars.$colors--grey-900;
+        border: 1px solid vars.$colors--grey-500;
+        // font-weight: vars.$fonts--weight-700;
       
         & + &
         {
@@ -157,7 +158,7 @@ main
     {
         label
         {
-            margin: 0;
+            margin-top: 2rem;
         }
         .hint
         {
@@ -172,7 +173,7 @@ main
     border-radius: 4px;
     padding: 1rem;
     outline: none;
-    border: 1px solid vars.$colors--grey-900;
+    border: 1px solid vars.$colors--grey-500;
     font-family: vars.$fonts--family;
 
     &:focus
@@ -269,6 +270,12 @@ main
         width: vars.$size--main-desktop;
         max-width: vars.$size--main-desktop;
     }
+
+    .input--message
+    {
+        height: 110px; 
+    }
+
     #contact-form
     {
 

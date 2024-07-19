@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <title>Frontend Mentor | Contact Form</title>
+</head>
+<body>
+    <div class="pop-up" id="pop-up">
+        <div class="pop-up__sent">
+            <img src="/assets/images/icon-success-check.svg" alt="check">
+            <p>Message Sent!</p>
+        </div>
+        <div class="pop-up__thanks">
+            <p>Thanks for completing the form. We'll be in touch soon!</p>
+        </div>
+    </div>
+
+    <main>
+        <form id="contact-form">
+            <h1 class="header">Contact Us</h1>
+
+            <!-- First Name -->
+            <div class="input-group input-group--first-name">
+                <label for="input--first-name" class="label label--required">First Name</label>
+                <input id="input--first-name" type="text" name="first-name" class="input">
+                <div class="hint hint--first-name" id="hint--first-name">This hint should be hidden</div>
+            </div>
+
+            <!-- Last Name -->
+            <div class="input-group input-group--last-name">
+                <label for="input--last-name" class="label label--required">Last Name</label>
+                <input id="input--last-name" type="text" name="last-name" class="input">
+                <div class="hint hint--last-name" id="hint--last-name">This hint should be hidden</div>
+            </div>
+
+            <!-- Email Address -->
+            <div class="input-group input-group--email-address">
+                <label for="input--email-address" class="label label--required">Email Address</label>
+                <input id="input--email-address" type="text" name="email-address" class="input">
+                <div class="hint hint--email-address" id="hint--email-address">This hint should be hidden</div>
+            </div>
+
+            <!-- Query Type -->
+            <div class="input-group input-group--query-type">
+                <label for="input---query-type" class="label label--required">Query Type</label>
+
+                <div class="input-group__sub-group input-group__sub-group">
+                    <label for="input--general-enquiry">
+                        <input type="radio" id="input--general-enquiry" name="query-type" value="general-enquiry" tabindex="1">
+                        <p>General Enquiry</p>
+                    </label>
+                </div>
+              
+                <div class="input-group__sub-group input-group__sub-group">
+                    <label for="input--support-request">
+                        <input type="radio" id="input--support-request" name="query-type" value="support-request" tabindex="2">
+                        <p>Support Request</p>
+                    </label>
+                </div>
+
+                <div class="hint hint--email-address" id="hint--query-type">This hint should be hidden</div>
+            </div>
+
+            <!-- Message -->
+            <div class="input-group input-group--message">
+                <label for="input--message" class="label label--required">Message</label>
+                <textarea id="input--message" name="message" class="input input--message"></textarea>
+                <div class="hint hint--message" id="hint--message">This hint should be hidden</div>
+            </div>
+
+            <!-- Consent -->
+            <div class="input-group input-group--consent">
+
+                <label for="input--consent" class="label label--required label--consent">
+                    <input id="input--consent" name="consent" type="checkbox">
+                    <p>I consent to being contacted by the team</p>
+                </label>
+
+                <div class="hint hint--consent" id="hint--consent">This hint should be hidden</div>
+            </div>
+            
+            <button onclick="onSubmitButtonPressed()" type="button" class="button button--submit">Submit</button>
+
+        </form>
+    </main>
+
+    <script src="./assets/scripts/main.js"></script>
+
+</body>
+</html>

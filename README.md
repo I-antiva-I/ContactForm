@@ -1,6 +1,6 @@
 # Frontend Mentor - Contact Form
 This is a solution 
-to [Contact form challenge](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db)
+to [Contact form challenge](https://www.frontendmentor.io/challenges/contact-form--G-hYlqKJj)
 on [Frontend Mentor](https://www.frontendmentor.io)
 
 ![Difficulty-[2] Newbie](<https://img.shields.io/badge/Difficulty-[2] Junior-3CB371?style=for-the-badge>)
